@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SBtest4" />
+        <module name="Report" />
+        <module name="OfficeService" />
+        <module name="eureka" />
+        <module name="office" />
+        <module name="BookingService" />
+        <module name="car-service" />
+        <module name="Gateway" />
+        <module name="rsoi_rentCar_backend-master" />
+        <module name="sbtest4-master" />
+        <module name="report-service" />
+        <module name="PaymentService" />
+        <module name="session-service" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="booking" target="1.8" />
+      <module name="CarService" target="1.8" />
+      <module name="Eureka" target="1.8" />
+      <module name="payment" target="1.8" />
+      <module name="rent-service" target="1.8" />
+      <module name="RentService" target="1.8" />
+      <module name="ReportService" target="1.8" />
+      <module name="rsoi_rentCar_backend-master" target="8" />
+      <module name="SessionService" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookingService" options="-parameters" />
+      <module name="CarService" options="-parameters" />
+      <module name="Eureka" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="PaymentService" options="-parameters" />
+      <module name="RentService" options="-parameters" />
+      <module name="Report" options="-parameters" />
+      <module name="ReportService" options="-parameters" />
+      <module name="SessionService" options="-parameters" />
+      <module name="booking" options="-parameters" />
+      <module name="car-service" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="office" options="-parameters" />
+      <module name="payment" options="-parameters" />
+      <module name="rent-service" options="-parameters" />
+      <module name="report-service" options="-parameters" />
+      <module name="session-service" options="-parameters" />
+    </option>
+  </component>
+</project>
